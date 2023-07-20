@@ -7,10 +7,11 @@ export function Contact() {
     
     <div>
       <h1>Contact</h1>
+      <div className='contact'></div>
       <h4>Phone:</h4>
-      <p>(555) 555-5555</p>
+      <p><div className='contact-phone'>(555) 555-5555</div></p>
       <h4>Email:</h4>
-      <p>QK7sZ@example.com</p>
+      <p><a href="mailto:QK7sZ@example.com">QK7sZ@example.com</a></p>
     </div>
   );
 }
